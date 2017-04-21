@@ -1,0 +1,47 @@
+{
+  "name": "the_blue_web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js  --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle",
+    "test": "jest"
+  },
+  "dependencies": {
+    "byte-buffer": "^1.0.3",
+    "node-emoji": "^1.5.1",
+    "protobufjs": "^6.5.3",
+    "query-string": "^4.3.2",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.43.2",
+    "react-native-alipay": "^0.1.5",
+    "react-native-datepicker": "^1.4.6",
+    "react-native-device-info": "^0.10.2",
+    "react-native-fetch-blob": "^0.10.4",
+    "react-native-fs": "^2.1.0-rc.1",
+    "react-native-gifted-chat": "^0.1.4",
+    "react-native-in-app-utils": "^5.2.3",
+    "react-native-keyboard-aware-scroll-view": "^0.2.8",
+    "react-native-parallax-view": "^2.0.6",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-smart-splash-screen": "^2.3.3",
+    "react-native-swiper": "^1.5.4",
+    "react-native-vector-icons": "^4.0.1",
+    "react-native-webview-bridge": "^0.33.0",
+    "react-native-wechat": "^1.9.2",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6",
+    "redux-devtools": "^3.3.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
